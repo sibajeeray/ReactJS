@@ -1,0 +1,14 @@
+We can Pass data from one component to another using props or properties.
+
+If we have to pass data from index.js to home.js-----
+In index.js where you haved mentioned the selector tag, inside that you can pass properties, like
+<Home name={"Sibajee"} age={25}>
+
+we have to pass these by key-value pair where value should always inside {}.
+
+We can also create a JS object and pass it to another component.
+
+We can access those values in Home component js file(i.e home.js) by this.props. Here porps is a 
+property of React.component class.
+
+If we have to get the value of name key. then this.props.name

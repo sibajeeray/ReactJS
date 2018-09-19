@@ -1,0 +1,15 @@
+We use ngFor for looping a list in Angular.
+
+But React is on pure JS.
+
+So here the ES6 map() can be used to loop over a list.
+
+
+Key Property
+--------------
+when listing our list by using map(), for each elemnt of the list, we should assign one key.
+Otherwise react will give a warning ot console as
+     Warning: Each child in an array or iterator should have a unique "key" prop.
+
+So while passing propz inside <Person>, mention another property key="unique_key", which might be the 
+id of the perosn or the index of the list if no id is assigned. 

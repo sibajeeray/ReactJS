@@ -1,0 +1,10 @@
+onClick is added in <person> tag, which call deletePersonHandler on every clcik to splice that 
+person from list.
+
+
+If you have to change any state then 1st create a copy of that, then change, So that we can have
+the original object for other operations.
+
+const persons = this.state.persons does not create a copy of that object, it simply point to that object.
+
+So use splice() or [...] spread operator to achieve a copy. 

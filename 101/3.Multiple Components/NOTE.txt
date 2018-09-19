@@ -1,0 +1,2 @@
+A folder named components is created inside src/app. Every components from this folder will be 
+imported to index.js of src/app and then the selector tag of it will be used.

@@ -1,0 +1,21 @@
+In App.css we can create different style with css class scope, and then can assign it to
+HTML tags as css class dynamically.
+
+Here the Person Details paragraph's color will turn red if no of person become 2.
+and the font of this paragraph will become bold when only one person will left in the list.
+
+
+Radium
+--------
+The main disadvantage of inline style is we can not style sudo-selector(like hover).
+For this we can use Radium package.
+
+Import Radium to ur js file where u have to use it.
+Then that component should be export as "export default Radium(App)" , bcoz Radium is a Higher order component. 
+So we have to use radium() function to wrap up our react components. 
+
+Now in our inline style we can use 
+':hover' :{
+    backgroundcolor :'lightgreen';
+    color : 'black;'
+}

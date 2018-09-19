@@ -1,0 +1,14 @@
+Pass a name value throug switchnameHandler rather than hard coding it.
+
+On onClick Event we can write onClick={this.switchNamehandle.bind(this,"New Name")}
+    Here "this" inside bind() means this switchNamehandle method.
+
+Different Ways of passing Values
+---------------------------------
+1) onClick = {this.switchNamehandler.bind(this,"New Name Value")}
+
+2)onClick = {()=>{this.switchNamehandler("New name Value")}};
+        OR
+  onClick = {()=>{ return this.switchNamehandler("New name Value")}};
+
+  But this is not recommended. 1st one os recommended, we should bind the new value.

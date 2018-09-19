@@ -1,0 +1,19 @@
+props is used to pass dynamic data from one component to another component.
+
+state is used to change data dynamically inside the same component it is declared.
+
+props can be used in function componet also. But state can be used only in class component
+where the calss must extends React.Componet. bcoz state is present in Component Class.
+
+state is a javaScript Object.
+
+Note:=> Any JS object we can use in our component to get dynamic value. But the speciality of state
+is, the render() method execute and chage the DOM whenever any value of a state object get changed.
+
+
+Always use setState() to change the value of the special object state. If we change it manually without 
+setSate(), then the render() won't be called and the change won't be reflected in DOM.
+
+
+In this example we are changing the state form one component i.e App.js and listening it from another 
+component i.e Person.js.

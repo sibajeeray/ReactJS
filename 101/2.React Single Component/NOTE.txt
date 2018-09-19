@@ -1,0 +1,4 @@
+Only Babel and Webpack configured. 
+
+src folder contains JS file and html. After "npm start" js file of src will get into bundle.js
+of dist/app folder after conversion from es6 to es5. And HTML file form src will be copied to dist.

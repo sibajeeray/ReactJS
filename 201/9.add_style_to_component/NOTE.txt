@@ -1,0 +1,23 @@
+We will add style to Person componet here.
+
+There are two ways of adding style to componet.
+1) By External Css File
+2) By Inline style 
+
+
+By External Css File
+----------------------
+Add a css file with same name as componet to the same directory of that componet.
+Still this file will be treate as global css. 
+So add className attribute in root div of the component and in css use that class for styling purpose.
+And then include this css file to your component.
+
+Webpack will take care of importing css into JS which is generally not possible.
+
+By Inline style
+------------------
+Create Object in render() of App.js and mention all your style there.
+Then add this object to every HTML tag where u want to use this style as a property(props)
+
+
+## Here inline style is used on the button. 

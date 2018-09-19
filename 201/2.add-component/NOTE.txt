@@ -1,0 +1,4 @@
+one component is added named person which is defined in src/Person.
+
+
+Then this person component is imported and used inside App.js

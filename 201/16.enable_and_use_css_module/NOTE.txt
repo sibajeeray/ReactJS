@@ -1,0 +1,38 @@
+Till now we have used CSS as a global file. One css file style can be imported and use in
+more than one JS file.
+
+To scope one css with one js file, we have to enable css module. It will be then treated as a module class
+just like anyother JS module. Other Css file also can not be overrided by another css style.
+
+
+Enable CSS module
+----------------------
+Webpack is responsible to handle the css.
+So we have to change the webpack configuration for this.
+Expose all the react-script package and find the webpack configuration.
+
+command : npm run eject -> It will expose all the configuration(Break the setup).
+
+Edit webpack.config.dev and webpack.config.prod files
+------------------------------------------------------------------
+Find modules of the config files. Find .css extension inside module.
+Edit the options of css-loader there.
+
+Add these 2 lines mentioned below inside options of css module
+******************************************************
+modules: true,
+localIdentName: '[name]__[local]__[hash:base64:5]',
+******************************************************
+
+this localIdentName will automatically assign one unique name to every class inside the css file.
+
+
+
+Now import the css like a module in App.js.
+import CssClasses(any name) form ./App.css;
+
+Now we can use every class of css like {CssClasses.red} or {CssClasses.App}
+
+
+
+

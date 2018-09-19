@@ -1,0 +1,7 @@
+All inline style for the button is removed from the App.js and style for the button is
+configured in App.css.
+
+
+
+Every classes of css file will be available to the object of the css module which we are importing
+in our JS file. even that be a subclss like .App button.Red

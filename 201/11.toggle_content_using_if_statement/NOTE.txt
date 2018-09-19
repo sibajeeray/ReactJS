@@ -1,0 +1,8 @@
+in previous example we could not use "if" statement as we were writing logic in JSX, not in js.
+
+here we'll use JS logic.
+
+
+
+You can change the inline style afetr exceution of IF, so the butoon color will be red once the person
+list will be hided.

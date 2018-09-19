@@ -1,0 +1,28 @@
+Every components has some lifecycle methods which are executed one after another.
+These lifecycle methods are available to onlystateful Components, not foe functional components.
+
+Lifecycle hooks according to their execution order
+-------------------------------------------------------
+
+1) constructor()        ----->  This not a react feauter, This is default ES6 function. Always Pass props to
+                                this if this component has any. and Call super(props) insode it.
+                                State is initialised inside constructor.
+
+2) componentWillMount() ----->  Use for updating state, last minute optimization
+
+3) render()             ----->  Gets Rendered whenever state get changed. 
+
+        ********RENDER THIS COMPONENTS AND ALLOF IT'S CHILD COMPONETS*********
+
+4) componentDidMount()  -----> Executes after component ADN ALL OF IT'S CHILD COMPONENTS are 
+                               successfully rendered. 
+
+Few other lifecycle methods are their which does not execute always
+
+
+5) componentWillReceiveProps()
+6) shouldComponentUpdate()
+7) componentWillUpdate()
+8) componentDidUpdate()
+9) componentDidCatch()
+10)componentWillUnmount()

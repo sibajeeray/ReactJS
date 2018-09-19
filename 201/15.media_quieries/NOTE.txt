@@ -1,0 +1,7 @@
+Media query can aslo be added to the JS file by the help of Radium.
+
+Here in Person.js file @media is added which should be in a format of JS object.
+
+If we are using keyframe or media querie in our CSS then we have to wrap our entire code with a component 
+of Radium. i.e StyleRoot, Import it from radium and use in App.js inside the return statement.
+

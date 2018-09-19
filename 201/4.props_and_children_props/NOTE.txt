@@ -1,0 +1,3 @@
+Normal properties will be inside <Person> tag exactly as attributes of this tag. Can be accessed by {props.props_name}.
+
+Children properties are written inside <Person> and </Person> and can be accessed by {props.children}

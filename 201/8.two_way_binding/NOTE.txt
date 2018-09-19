@@ -1,0 +1,3 @@
+There should be a text box. And when we write something in that box, the value should be
+taken by the program by onChange() Event and then should also show it back to the DOM. so called two way binding
+

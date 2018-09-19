@@ -1,0 +1,9 @@
+Previously we have mentained the CSS style by passing the CssClass in <div> of App.js.
+
+Here We will create a Higher-Order-Class named WithClass and wrap it's selector tag over the return of 
+App.js. And CssClass will be passed to WithClass as a props and th estyling will be handled there 
+in WithClass.
+
+
+And all the return statement of the App.js will be returned from the WithClass.js as it is 
+returning {props.children}, means the contents inside <WithClass> and </withClass>

@@ -1,0 +1,11 @@
+Best Project structure is created here, Where all Components will be inside components folder,
+container folder contains App.js and it's related files.
+assests folder should contains all the images used in the project.
+
+StateFul component and StatelessComponent
+---------------------------------------------
+Here App.js is stateful and rest of all are stateless components. State object is not available in any
+stateless component. Only props is available there.
+
+But Stateful component can access both this.state and this.props.
+
